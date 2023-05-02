@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168020519-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-168020519-1');
+		</script>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="ai musicians, ai music, background music for videos, royalty free music for youtube, video mapping, metaverse concert, artificial intelligence music, ai music artist, av mapping, film music concert, ai video generation platform, ai video music, ai film music, ai movie soundtrack">
+		<meta property="og:image" content="https://avmapping.co/blog/image/deeplearningai.jpeg">
+				
+		<title>Deep Learning AI 繁體中文字幕 - Andrew Ng 課程</title>
+		
+				
+		
+		<meta name="description" content="Deep Learning AI 繁體中文字幕 - Andrew Ng 課程">
+		
+		
+		<script type='application/ld+json'>
+  {
+    "@context": "http://www.schema.org",
+    "@type": "EntertainmentBusiness",
+    "name": "avmapping",
+    "url": "https://avmapping.co/en/",
+    "logo": "https://avmapping.co/index/images/av-logo-tm.png",
+    "priceRange": "$$$",
+    "image": "https://avmapping.co/index/images/av-logo-tm.png",
+    "description": "One-stop AI video music platform, offering background music and royalty-free music for video. AI musicians recommends free-downloadable-music for youtube.",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5201 Great America Pkwy, Suite 200",
+        "addressLocality": "Santa Clara",
+        "addressRegion": "CA",
+        "postalCode": "95054",
+        "addressCountry": "United State"
+    },
+    "telephone": "+1-424-256-6769"
+  }
+</script>
+<script type='application/ld+json'>
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AI Music For Video Platform Finds Perfect Sound - A.V. Mapping",
+    "url": "https:\/\/avmapping.co\/",
+    "sameAs": [
+      "https://avmapping.co/zh/",
+      "https://avmapping.co/",
+      "https://www.facebook.com/av.mapping/",
+      "https://www.instagram.com/avmapping/",
+      "https://twitter.com/avmapping",
+      "https://www.tiktok.com/@av.mapping",
+      "https://www.youtube.com/@avmapping"
+    ]
+  }
+</script>
+
+
+
+		<link rel="shortcut icon" href="https://avmapping.co/index/images/av-icon.png" type="image/x-icon" />
+
+		<link rel="canonical" href="https://avmapping.co/zh/blog/Deep-Learning-AI-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95-Andrew-Ng-%E8%AA%B2%E7%A8%8B/">
+
+			
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "A.V. Mapping",
+						"item": "https:\/\/avmapping.co\/zh/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Deep Learning AI 繁體中文字幕 - Andrew Ng 課程",
+						"item": "https:\/\/avmapping.co\/zh\/blog\/Deep-Learning-AI-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95-Andrew-Ng-%E8%AA%B2%E7%A8%8B\/"
+					}
+				]
+			}
+		</script>
+		
+		
+		<link rel="stylesheet" href="https://avmapping.co/blog/css/index.css" />
+		<link rel="stylesheet" href="https://avmapping.co/global/lib/normalize/normalize.css" />
+		<link rel="stylesheet" href="https://avmapping.co/global/css/index.css" />
+	</head>
+	<body>
+<nav
+  class="main-navigation"
+  itemscope
+  itemtype="https://schema.org/SiteNavigationElement"
+>
+  <div class="container">
+    
+    <a
+      class="icon left"
+      href='https://avmapping.co/zh/'
+      rel="keep-params"
+    >
+      <img
+        src="https://avmapping.co/index/images/av-logo-tm.png"
+        alt="A.V. Mapping"
+      />
+    </a>
+    <div
+      id="phone-menu-icon"
+      class="menu-icon"
+      onclick="togglePhoneNaviMenu()"
+    >
+      <img src="https://avmapping.co/index/images/icon-menu.png" />
+    </div>
+    <div
+      id="phone-close-icon"
+      class="close-icon hide"
+      onclick="togglePhoneNaviMenu()"
+    >
+      <i class="fas fa-times-circle"></i>
+    </div>
+    <div
+      id="nav-user-not-login"
+      class="right user-not-login hide"
+    >
+      <div
+        id="navi-item-offical-website"
+        class="navi-item-container"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/"
+            rel="keep-params"
+          >影音配對</a>
+        </div>
+        
+      </div>
+
+      <div
+        id="navi-item-creators"
+        class="navi-item-container"
+        onmouseover="openDesktopDropdown(this)"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/creators/"
+            rel="keep-params"
+          >
+            影像創作
+          </a>
+        </div>
+
+        
+        <div class="dropdown-menu">
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#solution"
+            rel="keep-params"
+          >解決問題</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#advantage"
+            rel="keep-params"
+          >我們的優勢</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#upload-instruction"
+            rel="keep-params"
+          >主程式上傳</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#manage-instruction"
+            rel="keep-params"
+          >管理頁面</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#product"
+            rel="keep-params"
+          >我們的產品</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#product-video"
+            rel="keep-params"
+          >介紹影片</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#offline-service"
+            rel="keep-params"
+          >衍生應用產品</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#feedback"
+            rel="keep-params"
+          >快來聽聽大家怎麼說</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#history"
+            rel="keep-params"
+          >公司沿革</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#partners"
+            rel="keep-params"
+          >合作夥伴</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#press"
+            rel="keep-params"
+          >新聞報導</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/creators/#contact"
+            rel="keep-params"
+          >聯絡我們</a>
+          
+        </div>
+        
+        
+      </div>
+      <div
+        id="navi-item-musician"
+        class="navi-item-container"
+        onmouseover="openDesktopDropdown(this)"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/musicians/"
+            rel="keep-params"
+          >
+            給音樂人的信
+          </a>
+        </div>
+
+        
+        <div class="dropdown-menu">
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/musicians#why-need-us"
+            rel="keep-params"
+          >核心理念</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/musicians#why-select-us"
+            rel="keep-params"
+          >我們的優勢</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/musicians#feedback"
+            rel="keep-params"
+          >使用回饋</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/musicians#results"
+            rel="keep-params"
+          >成果展示</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/musicians#statistics"
+            rel="keep-params"
+          >數據統計</a>
+          
+        </div>
+        
+        
+      </div>
+      <div
+        id="navi-item-blog"
+        class="navi-item-container"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item active"
+            href="https://avmapping.co/zh/blog/"
+            rel="keep-params"
+          >
+            相關文章
+          </a>
+        </div>
+        
+      </div>
+      <div
+        id="navi-item-nft"
+        class="navi-item-container"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/faimconcert/"
+            rel="keep-params"
+          >
+            FAIM concert
+          </a>
+        </div>
+        
+      </div>
+      
+      <a
+        class="navi-item"
+        id="navi-user-login"
+        onclick="login()"
+      >登入</a>
+      <a
+        class="navi-item"
+        id="navi-user-signup"
+        onclick="signup()"
+      >註冊</a>
+      <div
+        id="navi-item-language"
+        class="navi-item-container"
+        onmouseover="openDesktopDropdown(this)"
+      >
+        <div class="navi-item-padding">
+          
+          <a
+            class="navi-item"
+            href=""
+            rel="keep-params"
+          >
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        
+        
+        <div class="dropdown-menu">
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/zh/blog/"
+            rel="keep-params"
+          >繁體中文</a>
+          
+          <a
+            class="menu-item"
+            href="https://avmapping.co/en/blog/"
+            rel="keep-params"
+          >English</a>
+          
+        </div>
+        
+        
+      </div>
+      <div
+        id="navi-item-question"
+        class="navi-item-container"
+      >
+        
+        <div class="navi-item-padding">
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/blog/FAQ/"
+            rel="keep-params"
+          >
+            <i class="far fa-question-circle"></i>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      id="nav-user-login"
+      class="right user-login hide"
+    >
+      
+      <div
+        id="user"
+        class="user"
+        onmouseover="openDesktopDropdown(this)"
+      >
+        <div
+          id="user-avatar"
+          class="avatar-container"
+        >
+          <div class="avatar empty"></div>
+          <div class="avatar">
+            
+            <img src="https://avmapping.co/index/images/mock/user.png" />
+          </div>
+        </div>
+        <div class="dropdown-menu">
+          
+          
+          
+          <a
+            class="menu-item user-profile"
+            data-identity="photographer"
+            target="_blank"
+            href="https://app.avmapping.co/#/?identity=photographer"
+            rel="keep-params noopener noreferrer"
+          >影像管理</a>
+          
+          <a
+            class="menu-item user-profile"
+            data-identity="musicians"
+            target="_blank"
+            href="https://app.avmapping.co/#/?identity=musicians"
+            rel="keep-params noopener noreferrer"
+          >音樂人專區</a>
+          
+          
+          
+          <div
+            class="menu-item"
+            onclick="switchUser()"
+          >切換角色</div>
+          <div
+            class="menu-item"
+            onclick="logout()"
+          >登出</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="phone-navi-menu"
+    class="phone-navi-menu"
+  >
+    <div
+      class="navi-item-wrapper user-not-login"
+      id="navi-login"
+    >
+        <div
+          id="phone-navi-official"
+          class="navi-item navi-with-accordion"
+        >
+          
+          <div class="item">
+            <a
+              class="navi-item full"
+              href="https://avmapping.co/zh/"
+              rel="keep-params"
+            >影音配對</a>
+          </div>
+          
+        </div>
+
+        <div
+          id="phone-navi-creators"
+          class="navi-item navi-with-accordion"
+        >
+        
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-creators')"
+        >
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/creators/"
+            rel="keep-params"
+          >影像創作</a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#solution"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >解決問題</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#advantage"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的優勢</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#upload-instruction"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >主程式上傳</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#manage-instruction"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >管理頁面</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#product"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的產品</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#product-video"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >介紹影片</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#offline-service"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >衍生應用產品</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#feedback"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >快來聽聽大家怎麼說</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#history"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >公司沿革</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#partners"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >合作夥伴</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#press"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >新聞報導</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#contact"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >聯絡我們</a>
+            
+          </div>
+        </div>
+        
+        
+      </div>
+      <div
+        id="phone-navi-musician"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-musician')"
+        >
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/musicians/"
+            rel="keep-params"
+          >給音樂人的信</a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#why-need-us"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >核心理念</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#why-select-us"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的優勢</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#feedback"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >使用回饋</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#results"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >成果展示</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#statistics"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >數據統計</a>
+            
+          </div>
+        </div>
+        
+        
+      </div>
+      <div
+        id="phone-navi-blog"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/blog/"
+            rel="keep-params"
+          >相關文章</a>
+        </div>
+        
+      </div>
+      <div
+        id="phone-navi-nft"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/faimconcert/"
+            rel="keep-params"
+          >FAIM concert</a>
+        </div>
+        
+      </div>
+      
+      <a
+        class="navi-item"
+        onclick="login()"
+      >登入</a>
+      <a
+        class="navi-item"
+        onclick="signup()"
+      >註冊</a>
+      <div
+        id="phone-navi-language"
+        class="navi-item navi-with-accordion"
+      >
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-language')"
+        >
+          <a
+            rel="keep-params"
+            style="pointer-events: none;"
+          ><i class="fas fa-globe"></i></a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          
+          
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/faimconcert/"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >繁體中文</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/en/faimconcert/"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >English</a>
+            
+          </div>
+          
+          
+        </div>
+      </div>
+      <div
+        id="phone-navi-question"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/blog/FAQ/"
+            rel="keep-params"
+          >
+            <i class="far fa-question-circle"></i>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div
+      class="navi-item-wrapper user-login hide"
+      id="nav-login"
+    >
+      <div
+        id="phone-navi-official--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/"
+            rel="keep-params"
+          >影音配對</a>
+        </div>
+        
+      </div>
+
+      <div
+        id="phone-navi-creators--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-creators--login')"
+        >
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/creators/"
+            rel="keep-params"
+          >影像創作</a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#solution"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >解決問題</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#advantage"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的優勢</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#upload-instruction"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >主程式上傳</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#manage-instruction"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >管理頁面</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#product"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的產品</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#product-video"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >介紹影片</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#offline-service"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >衍生應用產品</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#feedback"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >快來聽聽大家怎麼說</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#history"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >公司沿革</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#partners"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >合作夥伴</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#press"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >新聞報導</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/creators/#contact"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >聯絡我們</a>
+            
+          </div>
+        </div>
+        
+        
+      </div>
+      <div
+        id="phone-navi-musician--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-musician--login')"
+        >
+          <a
+            class="navi-item"
+            href="https://avmapping.co/zh/musicians/"
+            rel="keep-params"
+          >給音樂人的信</a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#why-need-us"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >核心理念</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#why-select-us"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >我們的優勢</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#feedback"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >使用回饋</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#results"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >成果展示</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/musicians#statistics"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >數據統計</a>
+            
+          </div>
+        </div>
+        
+        
+      </div>
+      <div
+        id="phone-navi-blog--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/blog/"
+            rel="keep-params"
+          >相關文章</a>
+        </div>
+        
+      </div>
+      <div
+        id="phone-navi-nft--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/faimconcert/"
+            rel="keep-params"
+          >FAIM concert</a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+      
+      <a
+        class="navi-item navi-user-profile"
+        data-identity="photographer"
+        target="_blank"
+        href="https://app.avmapping.co/#/?identity=photographer"
+        rel="keep-params noopener noreferrer"
+      >影像管理</a>
+      
+      <a
+        class="navi-item navi-user-profile"
+        data-identity="musicians"
+        target="_blank"
+        href="https://app.avmapping.co/#/?identity=musicians"
+        rel="keep-params noopener noreferrer"
+      >音樂人專區</a>
+      
+      
+      
+      
+      <div
+        class="navi-item"
+        onclick="switchUser()"
+      >切換角色</div>
+      <div
+        class="navi-item"
+        onclick="logout()"
+      >登出</div>
+      <div
+        id="phone-navi-language--login"
+        class="navi-item navi-with-accordion"
+      >
+        <div
+          class="item"
+          onclick="toggleAccordion('phone-navi-language--login')"
+        >
+          <a
+            rel="keep-params"
+            style="pointer-events: none;"
+          ><i class="fas fa-globe"></i></a>
+          <i class="icon fas fa-chevron-down"></i>
+        </div>
+        <div
+          class="accordion"
+          style="height: 0"
+        >
+          
+          
+          <div class="wrapper">
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/zh/faimconcert/"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >繁體中文</a>
+            
+            <a
+              class="menu-item"
+              href="https://avmapping.co/en/faimconcert/"
+              rel="keep-params"
+              onclick="closePhoneNaviMenu()"
+            >English</a>
+            
+          </div>
+          
+          
+        </div>
+      </div>
+      <div
+        id="phone-navi-question--login"
+        class="navi-item navi-with-accordion"
+      >
+        
+        <div class="item">
+          <a
+            class="navi-item full"
+            href="https://avmapping.co/zh/blog/FAQ/"
+            rel="keep-params"
+          >
+            <i class="far fa-question-circle"></i>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="section-header">
+    <img src="https://avmapping.co/blog/image/deeplearningai.jpeg" alt="Deep Learning AI 繁體中文字幕 - Andrew Ng 課程">
+  </div>
+
+
+<div class="section">
+  <div
+    class="
+      container
+      blog-inner
+      container-has-image
+    "
+  >
+    <div class="blog-inner-title">
+      Deep Learning AI 繁體中文字幕 - Andrew Ng 課程
+    </div>
+    <div class="blog-inner-date">
+      五月 02, 2023
+    </div>
+    <div class="blog-inner-content">
+      <h1 id="deep-learning-ai-繁體中文字幕-andrew-ng-課程">Deep-Learning-AI-繁體中文字幕-Andrew-Ng-課程</h1>
+<p>This series came out just because we want to learn it with Traditional Chinese Captions. We can delete it if deeplearning.ai asked us to do!
+會有這系列的影片只是想讓繁體中文學習者可以使用 caption 功能、跟上最新的知識，如　deeplearning.ai 要求下架，我們也會如實處理。
+且在此提供繁體中文字幕檔供 deeplearning.ai 團隊使用：：https://aisync.video/deeplearningai</p>
+<p><a href="https://www.youtube.com/watch?v=IS_MQ745a_U&amp;list=PL6gUVk0Kzav9IT24PAmG4myM3_3pkdBMQ&amp;index=1">YouTube 播放清單連結</a>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/IS_MQ745a_U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<ul>
+<li>影片出處來自於 deeplearning.ai</li>
+</ul>
+<ol>
+<li>在官網上面學習會有程式碼的對照可以使用： <a href="https://learn.deeplearning.ai/chatgpt-prompt-eng/">https://learn.deeplearning.ai/chatgpt-prompt-eng/</a></li>
+<li>User Guide：https://sites.google.com/deeplearning.ai/deeplearningaifaq/home　</li>
+<li>Community：https://community.deeplearning.ai/</li>
+</ol>
+<ul>
+<li>字幕出處來自於：https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese/tree/main
+我們僅用翻譯程式轉為繁體中文，有任何想共同編修的歡迎提出建議：https://aisync.video/deeplearningai
+項目基於 CC BY-NC-SA 4.0 協議: <a href="https://go.avmapping.co/cc">https://go.avmapping.co/cc</a> 發布。</li>
+</ul>
+<h1 id="more-about-avmapping">More about A.V. Mapping</h1>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/inKMTvfwRbo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+🎵 Website: <a href="https://avmapping.co/">https://avmapping.co/</a>
+🎬 <a href="https://www.youtube.com/@avmapping/">YouTube: @ avmapping</a>
+📷 <a href="https://instagram.com/avmapping/">Instagram: @ avmapping</a>
+✨ <a href="https://facebook.com/av.mapping">Facebook: @ av.mapping</a>
+💰 <a href="https://www.linkedin.com/company/31023321">LinkedIn: @A.V. Mapping</a>️
+🗣️ Medium: <a href="https://avmapping.medium.com/">A.V. Mapping</a></p>
+<h1 id="other-videos">Other Videos:</h1>
+<p>🔥 The tutorial of making this blog into Video: <a href="https://youtu.be/fKTF8pAQBsQ">https://youtu.be/fKTF8pAQBsQ</a>
+🔥 Meta SheMeansBusiness interview: <a href="https://cutt.ly/B99JBxC">https://cutt.ly/B99JBxC</a>
+🔥 AV Mapping, a game changer for media and web 3.0 world: <a href="https://cutt.ly/t99KjfD">https://cutt.ly/t99KjfD</a>
+🔥 Maximizing Video and Music Production: <a href="https://cutt.ly/w99K0wz">https://cutt.ly/w99K0wz</a></p>
+
+    </div>
+
+    <div class="blog-actions-wrap">
+  <ul class="blog-actions">
+    
+    <li class="blog-action blog-action-next">
+      <a
+        href="https://avmapping.co/zh/blog/"
+        class="blog-button"
+      >回到列表頁</a>
+    </li>
+    
+    
+      
+        <li class="blog-action blog-action-prev">
+          <a
+            href="https://avmapping.co/pt/blog/A-startup-de-IA-A-V-Mapping-resolve-o-mist%C3%A9rio-do-GenerativeAI-Universal-Music-Adobe-e-Fake-Drake/"
+            class="blog-button"
+          >上一篇</a>
+        </li>
+      
+    
+    
+    
+      
+        <li class="blog-action blog-action-next">
+          <a
+            href="https://avmapping.co/zh/blog/AV-Mapping-NEWS-And-Interview/"
+            class="blog-button"
+          >下一篇</a>
+        </li>
+      
+    
+  </ul>
+</div>
+  </div>
+</div>
+
+		<section class="section-sign" id="section-sign-up">
+			<div id="signup" class="anchor"></div>
+			<div class="container">
+				<div class="section-title show-on-phone">創建您的帳戶</div>
+				<div class="section-free show-on-phone">開始 14 天免費試用</div>
+				<button class="close-btn show-on-phone" aria-label="Close" onclick="closeSign()">
+					<i class="fas fa-times"></i>
+				</button>
+				<div class="sign-up-form">
+					<div class="left">
+						<div class="title show-on-desktop">創建您的帳戶</div>
+						<div class="free show-on-desktop">開始 14 天免費試用</div>
+						<form autocomplete="on" method="post" id="form_signup">
+							
+							<div class="item required">
+								<input type="email" name="email" id="signup-email" placeholder='電子郵件地址' onkeyup="checkEmail()" />
+							</div>
+							<div class="text">
+								<span id='check-signup-email'></span>
+							</div>
+							<div class="item required">
+								<input type="password" name="password1" id="password-0" placeholder='建立密碼' />
+							</div>
+							<div class="item">
+								<input type="password" name="password2" id="re-password-0" placeholder='確認密碼' onkeyup="checkPassword(0)" />
+							</div>
+							<div class="text">
+								<span id='check-password-0'></span>
+							</div>
+							<input
+								class="submit"
+								type="button"
+								value='註冊帳號'
+								onclick='userSignUp(&#34;請查看郵件，並點選信件內的驗證連結。&#34;, &#34;註冊成功&#34;)'
+							/>
+						</form>
+
+						<div class="single-sign-on">
+							<div
+								class="sign-on-google"
+								onclick="googleClient.requestAccessToken()"
+							>
+								<div class="sign-on-google--icon">
+									<i class="fab fa-google"></i>
+								</div>
+								<div class="sign-on-google--authorize">使用 Google 帳號登入</div>
+							</div>
+
+							<div
+								class="sign-on-facebook"
+								onclick="FBLoginStatus()"
+							>
+								<div class="sign-on-facebook--icon">
+									<i class="fab fa-facebook"></i>
+								</div>
+								<div class="sign-on-facebook--authorize">使用 Facebook 帳號登入</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<img
+							src="https://avmapping.co/index/images/section-solution.svg"
+							alt='創建您的帳戶'
+							loading="lazy"
+						/>
+						<div class="text">
+							<button onclick="login()">我已經是會員了</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-sign"  id="section-sign-in">
+			<div id="signin" class="anchor"></div>
+			<div class="container">
+				<div class="section-title show-on-phone">登入 A.V. Mapping</div>
+				<button class="close-btn show-on-phone" aria-label="Close" onclick="closeSign()">
+					<i class="fas fa-times"></i>
+				</button>
+				<div class="sign-in-form">
+					<div class="left">
+						<img
+							src="https://avmapping.co/index/images/section-solution.svg"
+							alt='登入 A.V. Mapping'
+							loading="lazy"
+						/>
+						<div class="text">
+							<span>還不是會員嗎？</span>
+							<a id="signup_a"  style="color:white" onclick="signup()" >立即加入</a>
+							<span>吧！</span>
+						</div>
+					</div>
+					<div class="right">
+						<div class="title show-on-desktop">登入 A.V. Mapping</div>
+						<form autocomplete="on" method="post" id="form_signin">
+							<input type="email" name="email" placeholder='輸入您的電子郵件地址' />
+							<input type="password" name="password" placeholder='輸入密碼' />
+							<button type="button" onclick="resetpwd()">忘記密碼？</button>
+							
+							<input
+							class="submit"
+							type="button"
+							value='登入'
+							onclick='userSignIn([&#34;欄位不可為空白&#34;, &#34;帳號密碼錯誤，請重新輸入。&#34;, &#34;您的電子郵件尚未驗證，請至信箱收取\&#34;info@avmapping.co\&#34;驗證信，並點選連結後啟用帳號。&#34;])'
+							/>
+						</form>
+
+						<div class="single-sign-on">
+							<div
+								class="sign-on-google"
+								onclick="googleClient.requestAccessToken()"
+							>
+								<div class="sign-on-google--icon">
+									<i class="fab fa-google"></i>
+								</div>
+								<div class="sign-on-google--authorize">使用 Google 帳號登入</div>
+							</div>
+
+							<div
+								class="sign-on-facebook"
+								onclick="FBLoginStatus()"
+							>
+								<div class="sign-on-facebook--icon">
+									<i class="fab fa-facebook"></i>
+								</div>
+								<div class="sign-on-facebook--authorize">使用 Facebook 帳號登入</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-sign"  id="section-reset-pwd">
+			<div id="resetpwd" class="anchor"></div>
+			<div class="container">
+				<div class="section-title show-on-phone">變更密碼</div>
+				<button class="close-btn show-on-phone" aria-label="Close" onclick="closeSign()">
+					<i class="fas fa-times"></i>
+				</button>
+				<div class="resetpwd-form">
+					<div class="right">
+						<div class="title show-on-desktop">變更密碼</div>
+						<form autocomplete="on" method="post" id="form_resetpwd">
+							<div><input type="text" name="lang" id="lang" style="display: none;"/></div>
+							<div><input type="text" name="target_url" id="target_url" style="display: none;"/></div>
+							<div class="item required">
+								<input type="email" name="email" id="resetpwd" placeholder='輸入您的電子郵件地址' onkeyup="checkEmail()" />
+							</div>
+							<div class="text">
+								<span id='check-signup-email'></span>
+							</div>
+							<input class="submit" type="button" value='送出' onclick='userReset(&#34;重設密碼：我們將會傳送一個重設連結至您的電子郵件 以重置您的密碼。&#34;)' />
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-sign"  id="section-reset-pwd-confirm">
+			<div id="resetpwd-confirm" class="anchor"></div>
+			<div class="container">
+				<div class="section-title show-on-phone">變更密碼</div>
+				<button class="close-btn show-on-phone" aria-label="Close" onclick="closeSign()">
+					<i class="fas fa-times"></i>
+				</button>
+				<div class="resetpwd-confirm-form">
+					<div class="right">
+						<div class="title show-on-desktop">變更密碼</div>
+						<form autocomplete="on" method="post" id="form_resetpwd_confirm">
+							<div><input type="text" name="uid" id="uid" style="display: none;"/></div>
+							<div><input type="text" name="token" id="token" style="display: none;"/></div>
+							<div class="item required">
+								<input type="password" name="new_password1" id="password-1" placeholder='輸入新密碼' />
+							</div>
+							<div class="item required">
+								<input type="password" name="new_password2" id="re-password-1" placeholder='確認新密碼' onkeyup="checkPassword(1)" />
+							</div>
+							<div class="text">
+								<span id='check-password-1'></span>
+							</div>
+							<div class="remark">
+								<span>* 密碼須至少八位數、包含英文字母，且不能與用戶名相似</span>
+							</div>
+							<input class="submit" type="button" value='送出' onclick="userResetConfirm()" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+<section class="section-links section-links-top">
+	<div id="links" class="anchor"></div>
+	<div class="container">
+		<div class="link-list">
+			<div class="item">
+				<h3>關於我們</h3>
+				<br/>
+				<div>
+					<a class="text" href="https://avmapping.co/en/AV-Mapping-NEWS-And-Interview/">媒體報導</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/faim/">FAIM-音樂AI電影節</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/blog/AVMapping-Events-Overview/">活動</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/blog/">部落格</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/blog/Brand-Guide-Line-AVMapping/">品牌視覺規範</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<h3>產品</h3>
+				<br/>
+				<div>
+					<a class="text" href='https://avmapping.co/en/blog/AI-Recommends-Music-for-Video-with-Musicians-License/'>產品總覽</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/sync/">Sync 音樂搜尋引擎</a>
+				</div>
+				<div>
+					<a class="text" href="https://app.avmapping.co/#/dynamicAnalysis/step1">影像配樂</a>
+				</div>
+				<div>
+					<a class="text" href="https://app.avmapping.co/#/dynamicAnalysis/step1">自動音效</a>
+				</div>
+				<div>
+					<a class="text" href="https://app.avmapping.co/#/dynamicAnalysis/step1">聲音降噪</a>
+				</div>
+				<div>
+					<a class="text" href="https://app.avmapping.co/#/dynamicAnalysis/step1">相片配樂</a>
+				</div>
+				<div>
+					<a class="text" href="https://app.avmapping.co/#/dynamicAnalysis/step1">你的音樂</a>
+				</div>
+				<br/>
+
+				<h3>收費方式</h3>
+				<br/>
+				<div>
+					<a class="text" href="https://avmapping.co/zh/member/#section-plan">會員方案</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/donation/">贊助</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<h3>法律條款</h3>
+				<br/>
+				<div>
+					<a class="text" href="https://avmapping.co/zh/legal/privacy/">隱私政策</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/zh/legal/terms/">網站條款</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/blog/AVMapping-Anti-Corruption-Policy/">反貪腐條款</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/en/blog/Media-Authorization-And-Release-Form/">著作授權同意書</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/zh/member/#section-payment-method">音樂著作代理授權書</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<h3>網站資源</h3>
+				<br/>
+				<div>
+					<a class="text" href="Mailto:service@avmapping.co">網頁幫手</a>
+				</div>
+				<div>
+					<a class="text" href='https://avmapping.co/zh/blog/a.v.-mapping-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/'>使用指南</a>
+				</div>
+				<div>
+					<a class="text" href='https://avmapping.co/zh/blog/FAQ/'>問與答</a>
+				</div>
+				<div>
+					<a class="text" href="https://www.surveycake.com/s/g0gm2">共創計畫申請</a>
+				</div>
+				<div>
+					<a class="text" href="Mailto:info@avmapping.co">開發者中心</a>
+				</div>
+				<br/>
+
+				<h3>電子報</h3>
+				<br/>
+				<div>
+					<a class="text" href="https://avmapping.co/newsubscribe/">訂閱電子報</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/newsubscribe/?100musicemotions">100 情緒大補帖</a>
+				</div>
+				<div>
+					<a class="text" href="https://avmapping.co/newsubscribe/?mymusicmatters">#自己的音樂自己救 捍衛音樂權益連署</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+		<div class="content">
+			<div class="left">
+				Copyright © 2019 Memuriesic Co., LTD 保留一切權利
+			</div>
+			<div class="connect">|</div>
+			<div class="right">
+				<span>
+					<a class="text" href='https://avmapping.co/zh/legal/privacy/' target="_blank">隱私權政策</a> &
+					<a href='https://avmapping.co/zh/legal/terms/' target="_blank">使用條款</a>
+				</span>
+
+				<div id="google_translate_element"></div>
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	
+	
+
+	
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/solid.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/brands.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+	
+	<script src="https://www.youtube.com/iframe_api"></script>
+
+	
+	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	
+	<script
+		async
+		defer
+		src="https://accounts.google.com/gsi/client"
+	></script>
+
+	
+	<script
+		async
+		defer
+		crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js"
+	></script>
+
+	<script>
+		$(document).ready(function() {
+			
+			if (window.location.search.includes('verified=true')) {
+				
+				$('.section-news').remove();
+				alert('帳號驗證成功，我們將帶您探索個人頁面。')
+				login()
+			}
+
+			
+			const messages = {
+				"signup": {
+					"The email is already used": '該電子郵件已註冊',
+					"password too similar": '這個密碼與使用者名稱太相近，請重新設定',
+					"password too short": '密碼須至少八位數',
+					"password too common": '這個密碼太常見，請重新設定',
+					"password entirely numeric": '密碼須包含英文字母',
+					"The two password fields didn't match.": '密碼確認欄位與密碼欄位不相符',
+					"registered": '您已註冊過無法使用此優惠',
+					"User is already registered with this e-mail address.": '該電子郵件已經註冊過，請使用該電子郵件登入',
+				},
+				"reset-password": {
+					"Invalid uid": '重設密碼 UID 錯誤，找不到該 UID 對應的 user',
+					"Invalid token": '密碼重置已過期，請重新取得驗證信',
+					"password too similar": '這個密碼與使用者名稱太相近，請重新設定',
+					"password too short": '密碼須至少八位數',
+					"password too common": '這個密碼太常見，請重新設定',
+					"password entirely numeric": '密碼須包含英文字母',
+					"The two password fields didn't match.": '密碼確認欄位與密碼欄位不相符',
+					"done": '密碼已變更完成',
+				}
+			}
+
+			
+			passArguments(messages)
+		})
+
+		
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+	</script>
+	<script src="https://avmapping.co/index/js/docCookies.js"></script>
+	<script src="https://avmapping.co/index/js/index.js"></script>
+	<script src="https://avmapping.co/index/js/nav.js"></script>
+	
+	<script src="https://avmapping.co/index/js/event.js"></script>
+	<script src="https://avmapping.co/index/js/instruction.js"></script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE4QkjaQbS9yRkpkmyc-dCkXRw5ckcUMQ&amp;callback=myMap"></script>
+	</body>
+</html>
